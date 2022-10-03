@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    margin: 20px 40px 20px 40px;
+    background-color: #0A0A0A;
+    
+    width:100%;
+    height: auto;
+}
+
+ /* nav */
+#net {
+  width: 100px;
+  height: auto;
+  background-size: cover;
+  color: red;
+  font-size: 25x;
+  
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+  
+  }
+ /* container */
+
+  .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 50px;
+ 
+  }
+  .container h1{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+    
+    padding-top: 10px;
+  }
+  .profile {                            
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    
+  }
+  #pro1:hover  img  {
+   border: 3px solid white;
+  }
+  #pro2:hover  img  {
+    border: 3px solid white;
+   }
+   #pro3:hover  img  {
+    border: 3px solid white;
+   }
+   #pro4:hover  img  {
+    border: 3px solid white;
+   }
+     
+  img{
+    width: 190px;
+    height: 190px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+  .profile ul {
+    float: left;
+    padding: 0px 20px 0px 20px;
+  }
+  .profile ul li {
+    
+
+    list-style: none;
+    color: #7a7979;
+    padding-bottom: 20px;
+    
+    
+  }
+  .profile ul li h3{
+    text-align: center;
+    cursor: pointer;
+    width:120px;
+    margin: 0px 35px 0px 35px;
+    transition: 0.4s ease;
+    
+  }
+  #pro1:hover h3  {
+    color: white;
+   }
+   #pro2:hover h3  {
+    color: white;
+   }
+   #pro3:hover h3  {
+    color: white;
+   }
+   #pro4:hover h3  {
+    color: white;
+   }
+     
+   /* footer */
+
+   footer {
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    color: #7a7979;
+    border: 1px solid #7a7979;
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    
+   }
+   .footer:hover footer{
+    color: white;
+    border:1px solid white;
+   }

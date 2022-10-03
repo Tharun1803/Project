@@ -1,0 +1,44 @@
+    *{
+       margin: 0;
+       padding: 0;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      height: auto;
+      background-color: rgba(15, 15, 15, 0.9);
+    }
+    .main {
+       
+        margin-left: 370px;
+        margin-right: 370px;
+        color: white;
+    }
+    .heading{
+      margin-top: 10px;
+       font-size: 30px;
+       letter-spacing: 2px;
+       margin-bottom: 20px;
+    }
+    .btn button {
+      display: block;
+
+    }
+    button{
+      width: 100%;
+      padding: 10px 0px 10px 0px;
+      font-size: 20px;
+      border-radius: 5px;
+      margin: 5px 0px 10px 0px;
+      cursor: pointer;
+    }
+    .btn #download{
+      color: white;
+      background-color: black;
+      
+    }
+     p{
+      word-spacing: 2px;
+      margin-top: 20px;
+      letter-spacing: 1.1px;
+      margin-bottom: 20px;
+    }
